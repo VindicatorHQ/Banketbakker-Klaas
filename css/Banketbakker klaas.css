@@ -6,7 +6,6 @@
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
 	font-size: 20px;
-	text-align: center;
 }
 }
 @media only screen and (max-width: 700px)  {
@@ -16,7 +15,6 @@
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
 	font-size: 16px;
-	text-align: center;
 }
 }
 
@@ -80,6 +78,9 @@ a:hover {
 	color: green;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
 /* ------------------ Welkom -------------------*/
 
 #Welkom {
@@ -87,17 +88,57 @@ a:hover {
 	display: flex;
 }
 
-.Welkom {
-	flex-direction: row;
+#SlideShow{
+	width: 65vw;
 }
 
-.SlideShow {
+.Welkom {
+	position: relative;
+	width: 25vw;
+}
+
+.Slide {
 	width: 50vw;
-	height: 30vh;
+	height: auto;
+}
+
+.SlideFoto {
+	width: 50vw;
+	height: 50vh;
 }
 
 .welkomtekst {
 	width: 30vw;
+	text-align: center;
+}
+
+#WelkomM {
+	margin-top: 10vh;
+	display: flex;
+}
+
+#SlideShowM {
+	width: 65vw;
+}
+
+.WelkomM {
+	position: relative;
+	width: 25vw;
+}
+
+.SlideM {
+	width: 90vw;
+	height: auto;
+}
+
+.SlideFotoM {
+	width: 90vw;
+	height: 30vh;
+}
+
+.welkomtekstM {
+	width: 30vw;
+	text-align: center;
 }
 
 .welkomM{
@@ -105,6 +146,10 @@ a:hover {
 }
 
 /* ------------------ Assortiment -------------------*/
+
+.TitleAssortiment {
+	text-align: center;
+}
 
 #Assortiment {
 	display: flex;
@@ -141,57 +186,34 @@ a:hover {
 }
 
 .Fotos1M {
-	flex-direction: row;
+	flex-direction: column;
 }
 
 .Fotos2M {
-	flex-direction: row;
+	flex-direction: column;
 }
 
 .Fotos3M {
-	flex-direction: row;
+	flex-direction: column;
 }
 
 /* ------------------ Contact -------------------*/
 
+.TitleContact {
+	text-align: center;
+}
+
+#Contact {
+	display: flex;
+	flex-direction: row;
+}
+
+.FooterTekst {
+	width: 30vw;
+	position: relative;
+}
+
 .map {
-	margin-top: 13vh;
-}
-
-.mapM {
-	position: absolute;
-	top: 20%;
-	left: 2.5%;
-	height: 30vh;
-	width: 95vw;
-}
-
-.social {
-	height: 5vh;
-	display: block;
-  	text-align: center;
-}
-
-.contact1 {
-	position: absolute;
-	top: 65%;
-	left: 43%;
-}
-
-.contact1a {
-	position: absolute;
-	top: 69%;
-	left: 39%;
-}
-
-.contact {
-	position: absolute;
-	top: 55%;
-	left: 25%;
-}
-
-.contacta {
-	position: absolute;
-	top: 60%;
-	left: 10%;
+	width: 40vw;
+	height: 50vh;
 }

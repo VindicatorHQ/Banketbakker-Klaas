@@ -11,7 +11,7 @@
 <link rel="stylesheet" type="text/css" href="css/Banketbakker klaas.css">
 <script src="js/script.js" type="text/javascript"></script>
 	</head>
-<body>
+<body onload="showSlides()">
 <div class="Groot">
 <div id="Headerbalk"></div>
 	<header>
@@ -25,107 +25,96 @@
 	</header>
 	<section id="Welkom">
 			<div id="SlideShow">
-				<div class="Slide"><img src="images/Donuts.jpg" alt="Foto"></div>
-				<div class="Slide"><img src="images/Gebakjes.jpg" alt="Foto"></div>
-				<div class="Slide"><img src="images/Gebakjes2.jpg" alt="Foto"></div>
-				<div class="Slide"><img src="images/Gebak.jpg" alt="Foto"></div>
+				<div class="Slide"><img class="SlideFoto" src="images/Donuts.jpg" alt="Foto"></div>
+				<div class="Slide"><img class="SlideFoto" src="images/Gebakjes.jpg" alt="Foto"></div>
+				<div class="Slide"><img class="SlideFoto" src="images/Gebakjes2.jpg" alt="Foto"></div>
+				<div class="Slide"><img class="SlideFoto" src="images/Gebak.jpg" alt="Foto"></div>
 			</div>
 			<article class="Welkom">
 					<p>Welkom op de site van bakker klaas. Wij bieden allerlei verschillende banket producten.</p>
 				</article>
 	</section>
+	<h1 class="TitleAssortiment">Assortiment</h1>
 	<section id="Assortiment">
 		<article class="Fotos1">
-			<h1>Assortiment</h1>
 			<div><p>Taart</p><img class="Product" src="images/Taart.jpg" alt="Taart"></div>
 			<div><p>Kleine Taart</p><img class="Product" src="images/Kleine_Taart.jpg" alt="Kleine Taart"></div>
 			<div><p>Cakes</p><img class="Product" src="images/Cakes.jpg" alt="Cakes"></div>
 		</article>
 		<article class="Fotos2">
-			<h1>Assortiment</h1>
 			<div><p>Chocolade</p><img class="Product" src="images/Chocolade.jpg" alt="Chocolade"></div>
 			<div><p>Gebakjes</p><img class="Product" src="images/Gebakjes.png" alt="Gebakjes"></div>
 			<div><p>Stukswerk Zoet</p><img class="Product" src="images/Stukswerk_Zoet.jpg" alt="Stukswerk Zoet"></div>
 		</article>
 		<article class="Fotos3">
-			<h1>Assortiment</h1>
 			<div><p>Koekjes Zoet</p><img class="Product" src="images/Koekjes_Zoet.jpg" alt="Koekjes Zoet"></div>
 			<div><p>Stukswerk Hartig</p><img class="Product" src="images/Stukswerk_Hartig.jpg" alt="Stukswerk Hartig"></div>
 			<div><p>Koekjes Zout en Kaas</p><img class="Product" src="images/Koekjes_Zout_en_Kaas.jpg" alt="Koekjes Zout en Kaas"></div>
 		</article>
 	</section>
+	<h1 class="TitleContact">Contact</h1>
 	<section id="Contact">
-		<article class="Contact">
-			<h1>Contact</h1>
-		</article>
-		<article class="MapAdres">
-			<div>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1268400.6420219787!2d3.3284181522780587!3d51.61688901414111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c63f4d10d71de3%3A0x259270a846a2ddae!2sWarme+Bakker+Klaas+Hartog!5e0!3m2!1snl!2snl!4v1550140774211" allowfullscreen></iframe>
-			</div>
-			<div>
-				<p>Adres: Spuistraat 13, 3752 AJ Bunschoten-Spakenburg</p>
-				<p>Telefoonnummer: 033 298 3379</p>
-				<p>Informatie over bakker Klaas:</p>
-			</div>
-		</article>
+		<div>
+			<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1268400.6420219787!2d3.3284181522780587!3d51.61688901414111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c63f4d10d71de3%3A0x259270a846a2ddae!2sWarme+Bakker+Klaas+Hartog!5e0!3m2!1snl!2snl!4v1550140774211" allowfullscreen></iframe>
+		</div>
+		<div class="FooterTekst">
+			<p>Adres: Spuistraat 13, 3752 AJ Bunschoten-Spakenburg</p>
+			<p>Telefoonnummer: 033 298 3379</p>
+			<p>Informatie over bakker Klaas:</p>
+		</div>
 	</section>
 	</div>
 	<div class="Mobile">
-	<div id="HeaderbalkM"></div>
-	<header>
-		<nav id="boven-navM">
-			<ul>
-				<li><a href="#WelkomM">Welkom</a></li>
-				<li><a href="#AssortimentM">Assortiment</a></li>
-				<li><a href="#ContactM">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-	<section id="WelkomM">
-		<article class="WelkomM">
-			<div>
-				<p>Welkom op de site van bakker klaas. Wij bieden allelei verschillende bak producten.</p>
-			</div>
-			<div>
-				<img src="" alt="Foto">
-			</div>
-		</article>
-	</section>
-	<section id="AssortimentM">
-		<article class="AssortimentM">
-			<h1>Assortiment</h1>
-		</article>
-		<article class="Fotos1M">
-			<div><p>Taart</p><img class="ProductM" src="images/Taart.jpg" alt="Taart"></div>
-			<div><p>Kleine Taart</p><img class="ProductM" src="images/Kleine_Taart.jpg" alt="Kleine Taart"></div>
-			<div><p>Cakes</p><img class="ProductM" src="images/Cakes.jpg" alt="Cakes"></div>
-		</article>
-		<article class="Fotos2M">
-			<div><p>Chocolade</p><img class="ProductM" src="images/Chocolade.jpg" alt="Chocolade"></div>
-			<div><p>Gebakjes</p><img class="ProductM" src="images/Gebakjes.png" alt="Gebakjes"></div>
-			<div><p>Stukswerk Zoet</p><img class="ProductM" src="images/Stukswerk_Zoet.jpg" alt="Stukswerk Zoet"></div>
-		</article>
-		<article class="Fotos3M">
-			<div><p>Koekjes Zoet</p><img class="ProductM" src="images/Koekjes_Zoet.jpg" alt="Koekjes Zoet"></div>
-			<div><p>Stukswerk Hartig</p><img class="ProductM" src="images/Stukswerk_Hartig.jpg" alt="Stukswerk Hartig"></div>
-			<div><p>Koekjes Zout en Kaas</p><img class="ProductM" src="images/Koekjes_Zout_en_Kaas.jpg" alt="Koekjes Zout en Kaas"></div>
-		</article>
-	</section>
-	<section id="ContactM">
-		<article class="ContactM">
-			<h1>Contact</h1>
-		</article>
-		<article class="MapAdresM">
-			<div>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1268400.6420219787!2d3.3284181522780587!3d51.61688901414111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c63f4d10d71de3%3A0x259270a846a2ddae!2sWarme+Bakker+Klaas+Hartog!5e0!3m2!1snl!2snl!4v1550140774211" allowfullscreen></iframe>
-			</div>
-			<div class="FooterTekstM">
-				<p>Adres: Spuistraat 13, 3752 AJ Bunschoten-Spakenburg</p>
-				<p>Telefoonnummer: 033 298 3379</p>
-				<p>Informatie over bakker Klaas:</p>
-			</div>
-		</article>
-	</section>
+		<div id="HeaderbalkM"></div>
+			<header>
+				<nav id="boven-navM">
+					<ul>
+						<li><a href="#WelkomM">Welkom</a></li>
+						<li><a href="#AssortimentM">Assortiment</a></li>
+						<li><a href="#ContactM">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+			<section id="WelkomM">
+					<div id="SlideShowM">
+						<div class="SlideM"><img class="SlideFotoM" src="images/Donuts.jpg" alt="Foto"></div>
+						<div class="SlideM"><img class="SlideFotoM" src="images/Gebakjes.jpg" alt="Foto"></div>
+						<div class="SlideM"><img class="SlideFotoM" src="images/Gebakjes2.jpg" alt="Foto"></div>
+						<div class="SlideM"><img class="SlideFotoM" src="images/Gebak.jpg" alt="Foto"></div>
+					</div>
+					<article class="WelkomM">
+							<p>Welkom op de site van bakker klaas. Wij bieden allerlei verschillende banket producten.</p>
+						</article>
+			</section>
+			<h1 class="TitleAssortimentM">Assortiment</h1>
+			<section id="AssortimentM">
+				<article class="Fotos1M">
+					<div><p>Taart</p><img class="ProductM" src="images/Taart.jpg" alt="Taart"></div>
+					<div><p>Kleine Taart</p><img class="ProductM" src="images/Kleine_Taart.jpg" alt="Kleine Taart"></div>
+					<div><p>Cakes</p><img class="ProductM" src="images/Cakes.jpg" alt="Cakes"></div>
+				</article>
+				<article class="Fotos2M">
+					<div><p>Chocolade</p><img class="ProductM" src="images/Chocolade.jpg" alt="Chocolade"></div>
+					<div><p>Gebakjes</p><img class="ProductM" src="images/Gebakjes.png" alt="Gebakjes"></div>
+					<div><p>Stukswerk Zoet</p><img class="ProductM" src="images/Stukswerk_Zoet.jpg" alt="Stukswerk Zoet"></div>
+				</article>
+				<article class="Fotos3M">
+					<div><p>Koekjes Zoet</p><img class="ProductM" src="images/Koekjes_Zoet.jpg" alt="Koekjes Zoet"></div>
+					<div><p>Stukswerk Hartig</p><img class="ProductM" src="images/Stukswerk_Hartig.jpg" alt="Stukswerk Hartig"></div>
+					<div><p>Koekjes Zout en Kaas</p><img class="ProductM" src="images/Koekjes_Zout_en_Kaas.jpg" alt="Koekjes Zout en Kaas"></div>
+				</article>
+			</section>
+			<h1 class="TitleContactM">Contact</h1>
+			<section id="ContactM">
+				<div>
+					<iframe class="mapM" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1268400.6420219787!2d3.3284181522780587!3d51.61688901414111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c63f4d10d71de3%3A0x259270a846a2ddae!2sWarme+Bakker+Klaas+Hartog!5e0!3m2!1snl!2snl!4v1550140774211" allowfullscreen></iframe>
+				</div>
+				<div class="FooterTekstM">
+					<p>Adres: Spuistraat 13, 3752 AJ Bunschoten-Spakenburg</p>
+					<p>Telefoonnummer: 033 298 3379</p>
+					<p>Informatie over bakker Klaas:</p>
+				</div>
+			</section>
 	</div>
 </body>
 </html>
