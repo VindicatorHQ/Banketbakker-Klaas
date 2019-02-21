@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@media only screen and (min-width: 701px)  {
+	.Groot {display: block;}
+	.Mobile {display: none;}
+	body {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	text-align: center;
+}
+}
+@media only screen and (max-width: 700px)  {
+	.Groot {display: none;}
+	.Mobile {display: block;}
+	body {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	text-align: center;
+}
+}
+
+/* ------------------ Alle secties -------------------*/
+
+* {
+	margin: 0px auto;
+	padding: 0px auto;
+}
+
+#Headerbalk {
+	background-image: url(../images/Header.jpg);
+	width: 100vw;
+	height: 10vh;
+	z-index: 1;
+}
+
+#boven-nav{
+	width: 100vw;
+	margin-top: -7vh;
+	font-size: 25px;
+	z-index: 2;
+}
+
+#HeaderbalkM {
+	background-color: #0f438e;
+	width: 100vw;
+	height: 11vh;
+}
+
+#boven-navM {
+	width: 30vw;
+	margin-top: 5vh;
+	margin-left: 0vw;
+	font-size: 50px;
+	text-shadow: 2px 2px 4px #000000;
+	display: none;
+	z-index: 1;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+	float: left;
+	margin-left: 10vw;
+	margin-right: 5vw;
+}
+
+li a {
+	text-decoration: none;
+    display: block;
+    width: 60px;
+}
+a:link {
+	color:#EB1115;
+}
+
+a:hover {
+	color: green;
+}
+
+/* ------------------ Welkom -------------------*/
+
+#Welkom {
+	margin-top: 10vh;
+	display: flex;
+}
+
+.Welkom {
+	flex-direction: row;
+}
+
+.SlideShow {
+	width: 50vw;
+	height: 30vh;
+}
+
+.welkomtekst {
+	width: 30vw;
+}
+
+.welkomM{
+	width: 90vw;
+}
+
+/* ------------------ Assortiment -------------------*/
+
+#Assortiment {
+	display: flex;
+}
+
+.Assortiment {
+	flex-direction: row;
+}
+
+.Product {
+	height: 30vh;
+	width: 30vw;
+}
+
+.Fotos1 {
+	flex-direction: column;
+}
+
+.Fotos2 {
+	flex-direction: column;
+}
+
+.Fotos3 {
+	flex-direction: column;
+}
+
+#AssortimentM {
+	display: flex;
+}
+
+.ProductM {
+	height: 30vh;
+	width: 90vw;
+}
+
+.Fotos1M {
+	flex-direction: row;
+}
+
+.Fotos2M {
+	flex-direction: row;
+}
+
+.Fotos3M {
+	flex-direction: row;
+}
+
+/* ------------------ Contact -------------------*/
+
+.map {
+	margin-top: 13vh;
+}
+
+.mapM {
+	position: absolute;
+	top: 20%;
+	left: 2.5%;
+	height: 30vh;
+	width: 95vw;
+}
+
+.social {
+	height: 5vh;
+	display: block;
+  	text-align: center;
+}
+
+.contact1 {
+	position: absolute;
+	top: 65%;
+	left: 43%;
+}
+
+.contact1a {
+	position: absolute;
+	top: 69%;
+	left: 39%;
+}
+
+.contact {
+	position: absolute;
+	top: 55%;
+	left: 25%;
+}
+
+.contacta {
+	position: absolute;
+	top: 60%;
+	left: 10%;
+}
