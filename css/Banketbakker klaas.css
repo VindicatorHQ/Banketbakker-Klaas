@@ -6,7 +6,7 @@
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
 	font-size: 20px;
-	text-align: center;
+	text-align: ;
 }
 }
 @media only screen and (max-width: 700px)  {
@@ -87,13 +87,19 @@ a:hover {
 	display: flex;
 }
 
+#SlideShow{
+	width: 65vw;
+	text-align: center;
+}
+
 .Welkom {
-	flex-direction: row;
+	position: relative;
+	width: 25vw;
 }
 
 .SlideShow {
-	width: 50vw;
-	height: 30vh;
+	width: 60vw;
+	height: auto;
 }
 
 .welkomtekst {
