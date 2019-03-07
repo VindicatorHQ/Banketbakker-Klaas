@@ -1,21 +1,53 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @media only screen and (min-width: 701px)  {
-	.Groot {display: block;}
-	.Mobile {display: none;}
 	body {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
 	font-size: 20px;
 }
+.Welkom {
+	display: block;
+}
+.WelkomM {
+	display: none;
+}
+.map {
+	display: block;
+}
+.mapM {
+	display: none;
+}
+.FooterTekst {
+	display: block;
+}
+.FooterTekstM {
+	display: none;
+}
 }
 @media only screen and (max-width: 700px)  {
-	.Groot {display: none;}
-	.Mobile {display: block;}
 	body {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 600;
-	font-size: 16px;
-}
+		font-family: 'Raleway', sans-serif;
+		font-weight: 600;
+		font-size: 16px;
+	}
+	.Welkom {
+		display: none;
+	}
+	.WelkomM {
+		display: block;
+	}
+	.map {
+		display: none;
+	}
+	.mapM {
+		display: block;
+	}
+	.FooterTekst {
+		display: none;
+	}
+	.FooterTekstM {
+		display: block;
+	}
 }
 
 /* ------------------ Alle secties -------------------*/
@@ -25,6 +57,12 @@
 	padding: 0px auto;
 }
 
+.SlideFoto{
+	display: none;
+}
+#first{
+	display: block;
+}
 #Headerbalk {
 	background-image: url(../images/Header.jpg);
 	width: 100vw;
@@ -61,8 +99,18 @@ ul {
 
 li {
 	float: left;
-	margin-left: 10vw;
+	margin-left: 7vw;
 	margin-right: 5vw;
+}
+
+li:first-child {
+	float: left;
+	margin-left: 0vw;
+}
+
+li:last-child {
+	float: left;
+	margin-left: 15vw;
 }
 
 li a {
@@ -97,28 +145,10 @@ a:hover {
 	width: 25vw;
 }
 
-.Slide {
-	width: 50vw;
-	height: auto;
-}
-
-.SlideFoto {
-	width: 50vw;
-	height: 50vh;
-}
-
-.welkomtekst {
+.WelkomM {
 	width: 30vw;
-	text-align: center;
-}
-
-#WelkomM {
-	margin-top: 10vh;
-	display: flex;
-}
-
-#SlideShowM {
-	width: 65vw;
+	position: absolute;
+	top: 15vh;
 }
 
 .WelkomM {
@@ -126,23 +156,14 @@ a:hover {
 	width: 25vw;
 }
 
-.SlideM {
-	width: 90vw;
+.Slide {
+	width: 50vw;
 	height: auto;
 }
 
-.SlideFotoM {
-	width: 90vw;
-	height: 30vh;
-}
-
-.welkomtekstM {
-	width: 30vw;
-	text-align: center;
-}
-
-.welkomM{
-	width: 90vw;
+.SlideFoto {
+	width: 60vw;
+	height: 50vh;
 }
 
 /* ------------------ Assortiment -------------------*/
@@ -151,50 +172,20 @@ a:hover {
 	text-align: center;
 }
 
-#Assortiment {
+.Categorie {
+	width: 30vw;
 	display: flex;
+	flex-wrap: wrap;
 }
 
-.Assortiment {
-	flex-direction: row;
+.Fotos {
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .Product {
 	height: 30vh;
 	width: 30vw;
-}
-
-.Fotos1 {
-	flex-direction: column;
-}
-
-.Fotos2 {
-	flex-direction: column;
-}
-
-.Fotos3 {
-	flex-direction: column;
-}
-
-#AssortimentM {
-	display: flex;
-}
-
-.ProductM {
-	height: 30vh;
-	width: 90vw;
-}
-
-.Fotos1M {
-	flex-direction: column;
-}
-
-.Fotos2M {
-	flex-direction: column;
-}
-
-.Fotos3M {
-	flex-direction: column;
 }
 
 /* ------------------ Contact -------------------*/
@@ -215,5 +206,17 @@ a:hover {
 
 .map {
 	width: 40vw;
+	height: 50vh;
+}
+
+.FooterTekstM {
+	width: 90vw;
+	position: absolute;
+	left: 10vw;
+	top: 225vh;
+}
+
+.mapM {
+	width: 90vw;
 	height: 50vh;
 }

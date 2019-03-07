@@ -1,5 +1,4 @@
 var slideIndex = 0;
-console.log("Ik doe het");
 function showSlides() {
   var i;
   var slides = document.getElementsByClassName("SlideFoto");
